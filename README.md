@@ -1,4 +1,5 @@
 # flutter_section_list
+flutter 列表分组头浮动的实例, 看到常规实现列表组头浮动基本都是要给固定高度或者是 stack 叠加来实现, 这样实现有个别问题, 1.无法让头部高度盒子布局自适应, 2.如果手指在浮动组件上进行拖动, list 无法响应滑动, 针对此, 使用自定义sliver布局结合ValueNotification 简单提供一个 demo
 
 A new Flutter project.
 
